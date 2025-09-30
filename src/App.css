@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.swiper-pagination{
+    position: relative !important;
+}
