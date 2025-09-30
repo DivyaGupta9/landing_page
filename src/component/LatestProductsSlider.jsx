@@ -39,7 +39,7 @@ export default function LatestProductsSlider() {
         >
           {products.map((p) => (
             <SwiperSlide key={p.id}>
-              <div className="relative bg-gradient-to-br from-[#393390] to-[#0b1437] to-[#6b4fcf] rounded-2xl shadow-lg hover:scale-105 transition p-4 flex flex-col max-h-[22rem] h-full">
+              <div className="relative bg-gradient-to-br from-[#393390] to-[#6b4fcf] rounded-2xl shadow-lg hover:scale-105 transition p-4 flex flex-col max-h-[22rem] h-full">
                 {/* Featured Badge */}
                 {p.featured && (
                   <span className="absolute top-3 left-3 bg-gradient-to-r from-pink-500 to-orange-500 text-xs font-bold px-2 py-1 rounded">
