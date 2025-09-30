@@ -10,7 +10,7 @@ It uses **npm** (or yarn/pnpm) for dependency management.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/DivyaGupta9/landing_page.git
 ```
 
 ### 2. Go to repository folder
