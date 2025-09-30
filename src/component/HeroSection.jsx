@@ -29,13 +29,13 @@ const HeroSection = () => {
             <div className="flex gap-4 mt-6">
               <button
                 type="button"
-                className="text-white bg-gradient-to-br from-[#3730A3] to-[#9b4bc3] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5"
+                className="text-white cursor-pointer bg-gradient-to-br from-[#3730A3] to-[#9b4bc3] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5"
               >
                 Create Your AI App
               </button>
               <button
                 type="button"
-                className="text-white bg-gradient-to-br from-[#3730A3] to-[#9b4bc3] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5"
+                className="text-white cursor-pointer bg-gradient-to-br from-[#3730A3] to-[#9b4bc3] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5"
               >
                 Explore Marketplace
               </button>

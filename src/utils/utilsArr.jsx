@@ -170,3 +170,9 @@ export const testimonials = [
       "Rentprompts made it easy to launch my AI-powered content tools and grow my audience fast!",
   },
 ];
+
+export const stats = [
+  { label: "Community Members", value: "25,000+" },
+  { label: "Clients", value: "1,200+" },
+  { label: "AI Models Integrated", value: "350+" },
+];

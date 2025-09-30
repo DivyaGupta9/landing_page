@@ -52,10 +52,10 @@ function RentpromptsStoryBlock() {
 
           {/* CTA */}
           <div className="mt-6 flex flex-col sm:flex-row sm:items-center sm:space-x-4 gap-3">
-            <button className="text-white bg-gradient-to-br from-[#5048c0] to-[#9b4bc3] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5">
+            <button className="text-white cursor-pointer bg-gradient-to-br from-[#5048c0] to-[#9b4bc3] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5">
               Get Started — Create an App
             </button>
-            <button className="text-white  border border-gray-200 ounded-lg text-sm px-5 py-2.5 ">
+            <button className="text-white cursor-pointer border border-gray-200 ounded-lg text-sm px-5 py-2.5 ">
               Explore Marketplace
             </button>
           </div>

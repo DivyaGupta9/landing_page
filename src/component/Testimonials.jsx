@@ -14,7 +14,7 @@ const Testimonials = () => {
   };
 
   return (
-    <section className="py-16 ">
+    <section className="py-16">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-4xl font-bold mb-4">
           Success Stories From Our Creators
@@ -45,13 +45,13 @@ const Testimonials = () => {
           {/* Navigation Buttons */}
           <button
             onClick={prevTestimonial}
-            className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-200 rounded-full p-2 hover:bg-gray-300"
+            className="absolute left-0 top-1/2 cursor-pointer transform -translate-y-1/2 bg-gray-200 rounded-full p-2 hover:bg-gray-300"
           >
             &#10094;
           </button>
           <button
             onClick={nextTestimonial}
-            className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-200 rounded-full p-2 hover:bg-gray-300"
+            className="absolute right-0 top-1/2 cursor-pointer transform -translate-y-1/2 bg-gray-200 rounded-full p-2 hover:bg-gray-300"
           >
             &#10095;
           </button>

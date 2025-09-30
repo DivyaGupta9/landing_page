@@ -43,7 +43,7 @@ function WhyRentpromptsSection() {
 
       {/* CTA */}
       <div className="mt-12 text-center">
-        <button className=" bg-gradient-to-br from-[#3730A3] to-[#9b4bc3] hover:bg-indigo-700 text-white hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5">
+        <button className="cursor-pointer bg-gradient-to-br from-[#3730A3] to-[#9b4bc3] hover:bg-indigo-700 text-white hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5">
           Start Selling Today
         </button>
       </div>

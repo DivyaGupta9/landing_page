@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
-.swiper-pagination{
-    position: relative !important;
+
+.product .swiper{
+    height: 25rem;
 }

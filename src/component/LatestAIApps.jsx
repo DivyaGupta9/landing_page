@@ -20,7 +20,7 @@ export default function LatestAIApps() {
   };
 
   return (
-    <section className="bg-[#2d1bb3] py-10 px-6 text-white">
+    <section className="bg-[#2d1bb3] py-10 px-6 text-white h">
       {/* Header */}
       <div className="flex justify-between items-center mb-6">
         <div>
@@ -40,7 +40,7 @@ export default function LatestAIApps() {
         {/* Left Button */}
         <button
           onClick={prevSlide}
-          className="absolute -left-4 z-10 bg-white text-black p-2 rounded-full shadow-lg"
+          className="absolute -left-4 cursor-pointer z-10 bg-white text-black p-2 rounded-full shadow-lg"
         >
           <ChevronLeft size={20} />
         </button>
@@ -104,7 +104,7 @@ export default function LatestAIApps() {
         {/* Right Button */}
         <button
           onClick={nextSlide}
-          className="absolute -right-4 z-10 bg-white text-black p-2 rounded-full shadow-lg"
+          className="absolute -right-4 cursor-pointer z-10 bg-white text-black p-2 rounded-full shadow-lg"
         >
           <ChevronRight size={20} />
         </button>
