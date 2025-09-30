@@ -1,7 +1,12 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { IconBase } from "react-icons";
-import { IconLightning, IconSpark, IconWallet } from "../utils/utilsSvg";
+import {
+  IconBook,
+  IconLightning,
+  IconSpark,
+  IconWallet,
+} from "../utils/utilsSvg";
 
 function RentpromptsStoryBlock() {
   return (
@@ -23,7 +28,7 @@ function RentpromptsStoryBlock() {
             <Feature
               title="AI for Everyone"
               desc="Whether you're a creator, entrepreneur, or AI enthusiast, Rentprompts makes AI accessible for all."
-              icon={IconBase}
+              icon={IconBook}
             />
 
             <Feature
